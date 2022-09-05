@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsanForm</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>"Elektron Hökumətin İnkişafı Mərkəzi"nə müraciət qəbulu</h1>
+    </div>
+    <div class="table">
+        <div class="asanform">
+            <form>
+                <div class="row1">
+                    <div class="field">
+                        <label for="name">Ad</label>
+                        <input type="text" id="name" name="name" placeholder="Ad">
+                    </div>
+                    <div class="field">
+                        <label for="lastname">Soyad</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Soyad">
+                    </div>
+                    <div class="field">
+                        <label for="fathername">Ata adı</label>
+                        <input type="text" id="fathername" name="fathername" placeholder="Ata adı">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="field">
+                        <label for="pin">FİN</label>
+                        <input type="text" id="pin" name="pin" placeholder="FİN">
+                    </div>
+                    <div class="field">
+                        <label for="phone">Mobil nömrə</label>
+                        <div class="phonenumber">
+                            <select id="number" name="number">
+                                <option value="050">050</option>
+                                <option value="051">051</option>
+                                <option value="055">055</option>
+                                <option value="070">070</option>
+                                <option value="077">077</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" placeholder="Mobil nömrə">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email">Elektron poçt ünvanı</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="field">
+                        <label for="type">Növü</label>
+                        <select id="type" name="type">
+                            <option value="növü">Növü</option>
+                            <option value="Təklif">Təklif</option>
+                            <option value="Şikayət">Şikayət</option>
+                            <option value="Sorğu">Sorğu</option>
+                            <option value="Ərizə">Ərizə</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="request">Müraciətin bağlı olduğu layihə</label>
+                        <select id="type" name="type">
+                            <option value="default">Müraciətin bağlı olduğu layihə</option>
+                            <option value="“ASAN Visa” portal">“ASAN Visa” portal</option>
+                            <option value="“ASAN ödəniş” sistemi">“ASAN ödəniş” sistemi</option>
+                            <option value="e-gov">“Elektron Hökumət” portal (E-Gov)</option>
+                            <option value="mygov">“My.Gov” portalı</option>
+                        </select>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="ilkin" name="request" value="İlkin müraciət">
+                        <label for="ilkin" class="radiocheckbox">
+                            <pre>İlkin müraciət</pre>
+                        </label>
+                        <input type="radio" id="tekrar" name="request" value="Təkrar müraciət">
+                        <label for="tekrar" class="radiocheckbox">
+                            <pre>Təkrar müraciət</pre>
+                        </label>
+                    </div>
+                </div>
+                <div class="requesttext">
+                    <label for="appealtext">Müraciətin mətni (max: 1500)</label>
+                    <textarea name="message">Müraciətin mətni</textarea>
+                </div>
+                <div class="attachfile">
+                    <label for="file_upload" class="radiocheckbox">
+                        <img style="width: 15px;opacity:1;margin-right:5px"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgUsnC9IgrRI2XnqI_e2OWvPCLq095TGqBQ&usqp=CAU"
+                            alt="attach">
+                        <input type="file" id="file_upload" style="display: none;" multiple name="file_upload">
+                        <pre>Fayl əlavə edin</pre>
+                    </label>
+                </div>
+                <hr color="#E1E4E8" width="100%">
+                <div class="sent">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id=acceptence name="acceptence" class="checkbox-form">
+                        <label for="acceptence" class="radiocheckbox">
+                            <pre>Müraciətlə bağlı şərtləri qəbul edirəm</pre>
+                        </label><br>
+                    </div>
+                    <div class="button">
+                        <button><pre>Müraciəti göndər</pre></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

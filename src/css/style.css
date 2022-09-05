@@ -1,0 +1,188 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 10px 8px;
+}
+
+.heading h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 295px;
+    color:#0D55CF;
+}
+
+body {
+    background-color: #fbfbfbf7;
+}
+
+.table {
+    margin: 50px 50px;
+    padding: 0px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 10%);
+
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #8A94A6
+}
+
+.row1 {
+    display: flex;
+    margin: 0px 200px;
+    width: 600px;
+    padding: 15px 0px 0px 0px;
+
+
+}
+
+.row2 {
+    display: flex;
+    margin: 0px 200px;
+    width: 600px;
+
+}
+
+.row3 {
+    display: flex;
+    margin: 0px 200px -30px 200px;
+    width: 600px;
+
+}
+
+
+
+#number {
+    box-sizing: border-box;
+    padding: 0px 7px;
+    margin: -10px 15px 0px -10px;
+    width: 60px;
+    height: 52px;
+    border-color: #ccd0d7;
+    color: #8A94A6;
+    border-radius: 4px;
+
+}
+
+#phone {
+
+    padding: 0px 15px;
+    margin: -10px 0px;
+    width: 178px;
+    height: 50px;
+}
+
+.phonenumber {
+    display: flex;
+}
+
+input {
+    border-radius: 4px;
+    box-sizing: content-box !important;
+    padding: 0px 15px;
+    margin: 0px 0px;
+    border: 1px solid #ccd0d7;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.field {
+    margin: 10px 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+}
+
+#type {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    border: 1px solid #ccd0d7;
+    width: 283px;
+    height: 50px;
+    outline: none;
+    color: #8A94A6;
+}
+::placeholder{
+    color: #8A94A6;
+}
+#email {
+    margin: 0px 0px 0px -10px;
+}
+
+.radio{
+    display: flex;
+    width: 30px;
+    margin: 30px 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+.radiocheckbox{
+    
+    width: 120px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.requesttext{
+    margin: 10px 200px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 600px;
+    
+}
+textarea{
+    width: 930px;
+    height: 230px;
+    padding: 15px 15px;
+    border-color: #ccd0d7;
+    color: #8A94A6;
+    outline: none;
+}
+.attachfile{
+    padding: 0px 0px;
+    margin: -10px 980px 30px 218px;
+    border: 1px solid #ccd0d7;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 10%);
+}
+
+#acceptence{
+    width: 15px;
+    height: 15px;
+}
+.checkbox-group{
+    
+    margin: 5px 220px;
+    padding: 20px 5px;
+}
+
+.sent{
+    display: flex;
+}
+.button{
+    width: 10px;
+    margin: 10px 10px 10px 375px;
+
+    
+}
+button{
+    background-color: #0BB07B;
+    color: white;
+    outline: none;
+    border: #0BB07B;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+}
